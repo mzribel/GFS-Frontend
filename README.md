@@ -1,4 +1,4 @@
-# GFS_vitrine
+# GFS Vitrine
 
 ## Description
 The project is realized within the context of the end of year project of Bachelor 3.
