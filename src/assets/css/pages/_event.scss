@@ -1,0 +1,175 @@
+section.event-results {
+  min-height: 55vh;
+  padding: 75px 0;
+
+  .title-h2 {
+    justify-content: center;
+    span:not(.main) {
+      color: $primary-color;
+      display: flex;
+      letter-spacing: 5px;
+      padding: 0 10px;
+    }
+    .main {
+      position: relative;
+      &::after {
+        height: 2px;
+        width: 100%;
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        background-color: $primary-color;
+      }
+    }
+  }
+
+  .player-team {
+    font-size: .8em;
+    color: darkgrey;
+  }
+
+  .results-ctn {
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    .player {
+      display: flex;
+      gap: .25em;
+      align-items: center;
+    }
+  }
+
+  .results-item {
+    display: grid;
+    grid-template-columns: 200px 1fr 20%;
+    border: 1px solid $light-color;
+    overflow: hidden;
+    > div {
+      padding: 20px 20px;
+    }
+    &.short {
+      width: 80%;
+    }
+    .position {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      span {
+        z-index: 10;
+      }
+      border-right: 1px solid $light-color;
+    }
+
+    .position::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-image: url("~/assets/img/backgrounds/stripped_motif.png");
+      transform: rotate(180deg);
+      z-index: -1;
+      opacity: .3;
+    }
+    .position::after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      transform: rotate(45deg);
+      height: 100%;
+      width: 100%;
+      background-color: $dark-color;
+      z-index: -1;
+      border: 2px solid $primary-color;
+    }
+  }
+
+  //.results-ctn {
+  //  width: 100%;
+  //  max-width: 1440px;
+  //  border: 1px solid red;
+  //}
+  //table {
+  //  font-family: "Montserrat";
+  //  border-collapse: collapse;
+  //  border-spacing: 0 15px;
+  //  font-size: 24px;
+  //}
+  //.player-result {
+  //  border: 1px solid blue;
+  //  background-color: rgba(0,0,0, 0.2);
+  //}
+  //td.player {
+  //
+  //  display: flex;
+  //  gap: .25em;
+  //  color: $primary-color;
+  //  font-weight: bold;
+  //  &:not(:first-child) {
+  //    padding-top:30px;
+  //    padding-bottom:30px;
+  //  }
+  //}
+  //td.position {
+  //
+  //}
+  //.medium {
+  //  width: 20%;
+  //  text-align: center;
+  //}
+}
+
+.results-mid {
+  display: grid;
+  grid-template-columns: 90% 1fr;
+  gap: 20px;
+  .ratio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(50% - 1px);
+      width: 2px;
+      height: 6%;
+    }
+    .numbers {
+      display: flex;
+      gap: 20px;
+      font-size: 14px;
+    }
+    .bars {
+      width: 100%;
+      height: 2px;
+      position: relative;
+      padding-bottom: 10%;
+      &::before, &::after {
+        position: absolute;
+        content: "";
+        width: 35%;
+        height: 2px;
+        top: 5px;
+        left: 10%;
+        background-color: greenyellow;
+      }
+      &:after {
+        left: 55%;
+        background-color: red;
+      }
+    }
+  }
+
+}

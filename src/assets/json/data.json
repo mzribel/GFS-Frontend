@@ -1,0 +1,986 @@
+{
+	"staff": {
+		"fondateurs": [
+			{
+				"username": "LeopoldSEGA",
+				"name": "Léo Guinchard",
+				"img": "leopoldsega.jpg",
+				"role": "Président",
+				"socials": {
+					"twitter": "https://x.com/GFS_Leopold"
+				},
+				"region": "FR"
+			},
+			{
+				"other_teams": [],
+				"username":"Altair",
+				"name":"Théo Lafosse",
+				"role": "Co-Président",
+				"img": "altair.jpg",
+				"socials": {
+					"twitter": "https://x.com/GFS_Altair",
+					"youtube": "https://www.youtube.com/@altair2087"
+				},
+				"region": "FR"
+			}
+		],
+		"événements": [
+			{
+				"username": "Tinou",
+				"name": "",
+				"img": "tinou.jpg",
+				"role": "T.O.",
+				"socials": {
+					"twitter": "https://x.com/QTinou"
+				},
+				"region": "FR"
+			},
+			{
+				"username": "LeopoldSEGA",
+				"name": "Léo Guinchard",
+				"img": "leopoldsega.jpg",
+				"role": "T.O.",
+				"socials": {
+					"twitter": "https://x.com/GFS_Leopold"
+				},
+				"region": "FR"
+			},
+			{
+				"username": "SamHarlock",
+				"name": "",
+				"img": "samharlock.jpg",
+				"role": "Caster",
+				"socials": {
+					"twitter": "https://x.com/SamHarlock13"
+				},
+				"region": "FR"
+			},
+			{
+				"other_teams": [],
+				"username":"Altair",
+				"name":"Théo Lafosse",
+				"role": "Régisseur",
+				"img": "altair.jpg",
+				"socials": {
+					"twitter": "https://x.com/GFS_Altair",
+					"youtube": "https://www.youtube.com/@altair2087"
+				},
+				"region": "FR"
+			}
+		],
+		"Visuels": [
+			{
+				"username": "Olivia",
+				"name": "Olivia Helmer",
+				"img": "olivia.jpg",
+				"role": "Graphiste",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": "J1D4X",
+				"name": "Jean-David Bourgue",
+				"img": "jidax.jpg",
+				"role": "Graphiste",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": "Crash",
+				"name": "Baptiste Barsotti",
+				"img": "crash.jpg",
+				"role": "Photographe",
+				"socials": {
+					"twitch": "https://www.twitch.tv/craashtv"
+				},
+				"region": "FR"
+			}
+		],
+		"Marketting & Communication": [
+			{
+				"username": "Deku31",
+				"name": "Johan Sol",
+				"img": "deku31.jpg",
+				"role": "Community Manager",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": ".Mat.",
+				"name": "Mathis Bosch",
+				"img": "mat.jpg",
+				"role": "Community Manager",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": "Herion",
+				"name": "Alexandre Hervy",
+				"img": "keryan.jpg",
+				"role": "Marketting",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": "Toto",
+				"name": "Thomas Campese",
+				"img": "",
+				"role": "Marketting",
+				"socials": {},
+				"region": "FR"
+			}
+		],
+		"Développeurs": [
+			{
+				"username": "RathGate",
+				"name": "Marianne Corbel",
+				"img": "rathgate.jpg",
+				"role": "Développeuse",
+				"socials": {
+					"twitter": "https://x.com/RathGate"
+				},
+				"region": "FR",
+				"characters": {
+					"main": {
+						"name": "joker",
+						"skin": 5
+					}
+				}
+			},
+			{
+				"username": "Alecs",
+				"name": "Alexandre Bruno",
+				"img": "alecs.jpg",
+				"role": "Développeur",
+				"socials": {
+					"twitter": "https://x.com/KAlecss"
+				},
+				"region": "FR"
+			},
+			{
+				"username": "SpaceBunny",
+				"name": "Ewan Ducouët",
+				"img": "spacebunny.jpg",
+				"role": "Développeur",
+				"socials": {},
+				"region": "FR"
+			},
+			{
+				"username": "UnaChevrotina",
+				"name": "Romain Lecuyer",
+				"img": "unachevrotina.jpg",
+				"role": "Développeur",
+				"socials": {},
+				"region": "FR"
+			}
+		]
+	},
+	"events": [
+		{
+			"id": 0,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions I",
+			"date": "29/02/2024",
+			"date_str": "Jeu. 29 Février 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-i-1",
+			"drive": "https://drive.google.com/drive/folders/1Nrnq4s_81GUb90p3nTRNgkufLZUXHb8W",
+			"result_img": "tdi_1_top8.png",
+			"player_count": 25,
+			"pizza_count": 15,
+			"photos": [
+				"tdi1/01.jpg",
+				"tdi1/02.jpg",
+				"tdi1/03.jpg",
+				"tdi1/04.jpg",
+				"tdi1/05.jpg",
+				"tdi1/06.jpg"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["CG"],
+					"username": "WooxTom",
+					"win_count": 5,
+					"loss_count": 0
+				},
+				{
+					"position": 2,
+					"teams": ["GGO"],
+					"username": "DenPuShi",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": [],
+					"username": "Flaos",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": [],
+					"username": "Nozune",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["MP"],
+					"username": "acab",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": [],
+					"username": "Lyord",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["CGO"],
+					"username": "Serial",
+					"win_count": 2,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["NSP"],
+					"username": "Wakey",
+					"win_count": 4,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 1,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions II",
+			"date": "14/03/2024",
+			"date_str": "Jeu. 14 Mars 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-ii",
+			"drive": "",
+			"result_img": "tdi_2_top8.png",
+			"player_count": 25,
+			"pizza_count": 15,
+			"best_of": "https://www.youtube.com/watch?v=ptQauqAvbOA",
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["STRX"],
+					"username": "FRNK",
+					"win_count": 5,
+					"loss_count": 0
+				},
+				{
+					"position": 2,
+					"teams": ["GGO"],
+					"username": "DenPuShi",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": [],
+					"username": "Nozune",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": ["ONI"],
+					"username": "SamHarlock",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["ONI"],
+					"username": "flipflop02",
+					"win_count": 2,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["STRX", "GFS"],
+					"username": "Jo",
+					"win_count": 5,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Ae",
+					"win_count": 5,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["GGO"],
+					"username": "Serial",
+					"win_count": 2,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 2,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions III",
+			"date": "28/03/2024",
+			"date_str": "Jeu. 28 Mars 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-iii",
+			"drive": "https://drive.google.com/drive/folders/1ybdOkCupFOCx-pbKuVg1W6XEuyy0tFVa",
+			"result_img": "tdi_3_top8.png",
+			"player_count": 22,
+			"pizza_count": 10,
+			"best_of": "https://www.youtube.com/watch?v=BTcnTrNbEzQ&t=488s",
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"photos": [
+				"tdi3/01.jpg",
+				"tdi3/02.jpg",
+				"tdi3/03.jpg",
+				"tdi3/04.jpg",
+				"tdi3/05.jpg",
+				"tdi3/06.jpg"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["STRX"],
+					"username": "FRNK",
+					"win_count": 5,
+					"loss_count": 0
+				},
+				{
+					"position": 2,
+					"teams": ["ONI"],
+					"username": "SamHarlock",
+					"win_count": 6,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": ["FDP"],
+					"username": "STAR_PLATINUM",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": ["STRX", "FDP"],
+					"username": "BiRoZz",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["STRX", "FDP"],
+					"username": "BIGSTEVEFAN13015",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": [],
+					"username": "Nozune",
+					"win_count": 2,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["MP", "GFS", "YTK"],
+					"username": "Ghazi",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Jost Eady",
+					"win_count": 2,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 3,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions IV",
+			"date": "11/04/2024",
+			"date_str": "Jeu. 11 Avril 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-iv",
+			"drive": "https://drive.google.com/drive/folders/1JIPE4PTmfMvwgGB1nhk1NR20jCjGMgmJ",
+			"result_img": "tdi_4_top8.png",
+			"player_count": 22,
+			"pizza_count": 10,
+			"best_of": "https://www.youtube.com/watch?v=tPdrYzbauOU",
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"photos": [
+				"tdi4/01.jpg",
+				"tdi4/02.jpg",
+				"tdi4/03.jpg",
+				"tdi4/04.jpg",
+				"tdi4/05.jpg",
+				"tdi4/06.jpg"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": [],
+					"username": "Nozune",
+					"win_count": 5,
+					"loss_count": 0
+				},
+				{
+					"position": 2,
+					"teams": [],
+					"username": "Lyord",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": [],
+					"username": "Jost Eady",
+					"win_count": 5,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": ["FDP"],
+					"username": "STAR_PLATINUM",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["NSP"],
+					"username": "Wakey",
+					"win_count": 2,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["STRX", "FDP"],
+					"username": "BIGSTEVEFAN13015",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Ae",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Kirdos",
+					"win_count": 3,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 4,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions V",
+			"date": "25/04/2024",
+			"date_str": "Jeu. 25 Avril",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-v",
+			"drive": "https://drive.google.com/drive/folders/1x7wB2qAsmu5ErKiN_XxxB3hsVnjDwOjY",
+			"result_img": "tdi_5_top8.png",
+			"player_count": 50,
+			"pizza_count": 25,
+			"best_of": "https://www.youtube.com/watch?v=F8gl0tTZYho",
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"photos": [
+				"tdi5/01.jpg",
+				"tdi5/02.jpg",
+				"tdi5/03.jpg",
+				"tdi5/04.jpg",
+				"tdi5/05.jpg",
+				"tdi5/06.jpg"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["MYS"],
+					"username": "Jibay",
+					"win_count": 6,
+					"loss_count": 1
+				},
+				{
+					"position": 2,
+					"teams": ["ECR"],
+					"username": "Wael",
+					"win_count": 8,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": [],
+					"username": "Mohamed",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": [],
+					"username": "Elgoumi",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["GFS", "ONI"],
+					"username": "SamHarlock",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["NQCTN"],
+					"username": "Gawain",
+					"win_count": 5,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Nozune",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["CG", "ECR"],
+					"username": "WooxTom",
+					"win_count": 3,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 5,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions VI",
+			"date": "23/05/2024",
+			"date_str": "Jeu. 23 Mai 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-vi",
+			"drive": "https://drive.google.com/drive/folders/1Mmo1iH2k0c2C5p2ZJn2ecPj_JkIrmnRJ",
+			"result_img": "",
+			"player_count": 28,
+			"pizza_count": 15,
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"photos": [
+				"tdi6/01.jpg",
+				"tdi6/02.jpg",
+				"tdi6/03.jpg",
+				"tdi6/04.jpg",
+				"tdi6/05.jpg",
+				"tdi6/06.jpg"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["ES"],
+					"username": "Nitox",
+					"win_count": 5,
+					"loss_count": 0
+				},
+				{
+					"position": 2,
+					"teams": ["EZI"],
+					"username": "Eko",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": ["ETY", "SL"],
+					"username": "Pan",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": ["STRX"],
+					"username": "FRNK",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": [],
+					"username": "Sigo",
+					"win_count": 5,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["FDP"],
+					"username": "Bebou",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["FDP"],
+					"username": "STAR_PLATINUM",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["SFL"],
+					"username": "BouBouTreize",
+					"win_count": 3,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 6,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions VII",
+			"date": "07/06/2024",
+			"date_str": "Ven. 07 Juin 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/terre-des-illusions-vii",
+			"drive": "",
+			"result_img": "",
+			"player_count": 24,
+			"pizza_count": 12,
+			"vods_playlist": "https://www.youtube.com/@GFS_Esport/videos",
+			"vods": [
+				"https://www.youtube.com/embed/t6TlSQs4O8o",
+				"https://www.youtube.com/embed/m0bwAP09LLk",
+				"https://www.youtube.com/embed/-uDQcdi0RY0",
+				"https://www.youtube.com/embed/OZh150O4YeA",
+				"https://www.youtube.com/embed/uySjz8_dZVQ"
+			],
+			"top_8": [
+				{
+					"position": 1,
+					"teams": ["YSM"],
+					"username": "Alw",
+					"win_count": 9,
+					"loss_count": 1
+				},
+				{
+					"position": 2,
+					"teams": ["YSM"],
+					"username": "Lorinato",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 3,
+					"teams": [],
+					"username": "Julos",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 4,
+					"teams": [],
+					"username": "Mazzer",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["E0"],
+					"username": "Sumbra",
+					"win_count": 2,
+					"loss_count": 2
+				},
+				{
+					"position": 5,
+					"teams": ["BagarreClub", "GFS"],
+					"username": "SamHarlock",
+					"win_count": 4,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": ["GFS"],
+					"username": "LeopoldSEGA",
+					"win_count": 3,
+					"loss_count": 2
+				},
+				{
+					"position": 7,
+					"teams": [],
+					"username": "Ae",
+					"win_count": 4,
+					"loss_count": 2
+				}
+			]
+		},
+		{
+			"id": 7,
+			"series": "Terre des Illusions",
+			"name": "Terre des Illusions VIII",
+			"date": "20/06/2024",
+			"date_str": "Jeu. 20 Juin 2024",
+			"place": "Aix-en-Provence",
+			"startgg": "https://www.start.gg/tournament/registration-test-1/details",
+			"drive": "",
+			"result_img": "",
+			"player_count": 0,
+			"pizza_count": 0,
+			"is_registering": true
+		}
+	],
+	"players": [
+		{
+			"other_teams": [],
+			"username":"Aero_Satori",
+			"name":"",
+			"img": "aero_satori.jpg",
+			"socials": {
+				"twitter": "https://x.com/AAero_Inkk",
+				"instagram": "https://www.instagram.com/aero_the_photographer/",
+				"youtube": "https://www.youtube.com/@aero_ink",
+				"twitch": "https://www.twitch.tv/aojishitodo"
+			},
+			"characters": {
+				"main": {
+					"name": "hero",
+					"skin": 3
+				},
+				"secondaries": [
+					{
+						"name": "ness",
+						"skin": 6
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"Altair",
+			"name":"",
+			"img": "altair.jpg",
+			"socials": {
+				"twitter": "https://x.com/GFS_Altair",
+				"youtube": "https://www.youtube.com/@altair2087"
+			},
+			"characters": {
+				"main": {
+					"name": "mario",
+					"skin": 4
+				},
+				"secondaries": [
+					{
+						"name": "incineroar",
+						"skin": 8
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"ChèvreDeFeu",
+			"name":"",
+			"img": "",
+			"socials": {
+				"twitter": "https://x.com/ChevreDeFeu"
+			},
+			"characters": {
+				"main": {
+					"name": "kirby",
+					"skin": 2
+				},
+				"secondaries": [
+					{
+						"name": "pkmn_trainer",
+						"skin": 8
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": ["TLS"],
+			"username":"Dol",
+			"name":"",
+			"img": "",
+			"socials": {
+				"twitter": "https://x.com/Dol_ssb",
+				"instagram": "https://www.instagram.com/dol_bbx/",
+				"twitch": "https://www.twitch.tv/dol_ssb"
+			},
+			"characters": {
+				"main": {
+					"name": "toon_link",
+					"skin": 3
+				},
+				"secondaries": [
+					{
+						"name": "falco",
+						"skin": 4
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"Ghazi",
+			"name":"",
+			"img": "ghazi.jpg",
+			"socials": {
+				"twitter": "https://x.com/GhaziYTK"
+			},
+			"characters": {
+				"main": {
+					"name": "peach",
+					"skin": 1
+				},
+				"secondaries": [
+					{
+						"name": "piranha_plant",
+						"skin": 4
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"Nirvana",
+			"name":"",
+			"img": "nirvana.jpg",
+			"socials": {},
+			"characters": {
+				"main": {
+					"name": "terry",
+					"skin": 1
+				},
+				"secondaries": []
+			},
+			"region": "CA"
+		},
+		{
+			"other_teams": ["AUEC"],
+			"username":"Thendo",
+			"name":"",
+			"img": "",
+			"socials": {
+				"twitter": "https://x.com/thendo267",
+				"instagram": "https://www.instagram.com/thendo267/",
+				"twitch": "https://www.twitch.tv/thendo26"
+			},
+			"characters": {
+				"main": {
+					"name": "marth",
+					"skin": 5
+				},
+				"secondaries": [
+					{
+						"name": "roy",
+						"skin": 1
+					},
+					{
+						"name": "lucina",
+						"skin": 1
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"Williamete",
+			"name":"",
+			"img": "",
+			"socials": {
+				"twitch": "https://www.twitch.tv/luigigigachad"
+			},
+			"characters": {
+				"main": {
+					"name": "luigi",
+					"skin": 1
+				},
+				"secondaries": [
+					{
+						"name": "bowser",
+						"skin": 5
+					}
+				]
+			},
+			"region": "FR"
+		},
+		{
+			"other_teams": [],
+			"username":"Youps",
+			"name":"",
+			"img": "",
+			"socials": {
+				"twitter": "https://x.com/YoupsOrFeectre",
+				"twitch": "https://www.twitch.tv/youpsdev"
+			},
+			"characters": {
+				"main": {
+					"name": "lucas",
+					"skin": 1
+				},
+				"secondaries": []
+			},
+			"region": "BE"
+		}
+
+
+	]
+}

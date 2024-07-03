@@ -1,0 +1,41 @@
+// BREAK POINT -------------------------------------------------------
+// -------------------------------------------------------------------
+$br-XXXL         :1600px;
+$br-XXL          :1400px;
+$br-XL           :1100px;
+$br-L            :1025px; //1060px;
+$br-M            :960px;
+$br-M2            :820px;
+$br-S            :768px;
+$br-XS           :640px;
+$br-XXS          :450px;
+
+@mixin breakpoint($point) {
+    @if $point == br-XXL {
+        @media (max-width:$br-XXL) { @content; }
+    }
+    @if $point == br-XXL {
+        @media (max-width:$br-XXL) { @content; }
+    }
+    @if $point == br-XL {
+        @media (max-width:$br-XL) { @content; }
+    }
+    @else if $point == br-L {
+        @media (max-width:$br-L) { @content; }
+    }
+    @else if $point == br-M {
+        @media (max-width:$br-M) { @content; }
+    }
+    @else if $point == br-M2 {
+        @media (max-width:$br-M2) { @content; }
+    }
+    @else if $point == br-S {
+        @media (max-width:$br-S)  { @content; }
+    }
+    @else if $point == br-XS {
+        @media (max-width:$br-XS)  { @content; }
+    }
+    @else if $point == br-XXS {
+        @media (max-width:$br-XXS)  { @content; }
+    }
+}

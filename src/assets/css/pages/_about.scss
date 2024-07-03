@@ -1,0 +1,59 @@
+section.about {
+  padding:75px 0;
+
+}
+
+.story-ctn {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 20px;
+  &.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+  }
+  &.end {
+    margin-bottom: 50px;
+  }
+  > div img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $montserrat;
+    font-size: 18px;
+    gap: 30px;
+  }
+  .sign {
+    font-family: Montserrat;
+    font-style: italic;
+    align-self: flex-end;
+  }
+  .thanks {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    span {
+      font-weight: bold;
+      color: $primary-color;
+    }
+  }
+  .img {
+    position: relative;
+    aspect-ratio: 16/9;
+    border: 3px solid $primary-color;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+}

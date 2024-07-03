@@ -1,0 +1,205 @@
+.players-ctn {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  row-gap: 75px;
+  min-width: 0;
+  min-height: 0;
+  > div {
+    min-width: 0;
+  }
+}
+
+.ssbu-mural-wrapper {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  background: $dark-color;
+  border-bottom: 10px solid $primary-color;
+  .ssbu-mural {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+}
+
+.players-section {
+  background: $dark-color;
+  color: white;
+  position: relative;
+  padding: 75px 0;
+
+  .players-card-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .player-ctn {
+      display: flex;
+      max-width: 1000px;
+      margin-right: auto;
+      &.reverse {
+        flex-direction: row-reverse;
+        margin-left: auto;
+      }
+
+      .pfp {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-wrapper {
+          height: 80%;
+          position: relative;
+          margin-right: 16px;
+          img {
+            max-height: 100%;
+            z-index:20;
+          }
+          .up-dec::before {
+            top: -20px;
+            left:-20px;
+            height: 30px;
+            width: 5px;
+            background-color: white;
+          }
+          .up-dec::after {
+            top: -20px;
+            left: -20px;
+            height: 5px;
+            width: 30px;
+            background-color: white;
+          }
+          .up-dec::before, .up-dec::after, .down-dec::before, .down-dec::after {
+            position: absolute;
+            content: "";
+          }
+
+          .down-dec::before {
+            bottom: -20px;
+            right: -20px;
+            height: 5px;
+            width: 30px;
+            background-color: $primary-color;
+          }
+          .down-dec::after {
+            bottom: -20px;
+            right: -20px;
+            height: 30px;
+            width: 5px;
+            background-color: $primary-color;
+          }
+        }
+      }
+
+      .details {
+        display: flex;
+        flex-direction: column;
+
+        flex-grow: 1;
+        padding: 32px 16px 10px 16px;
+        &-upper {
+          display: flex;
+          gap: 20px;
+          flex-grow: 1;
+          &-wrapper {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .player-full_name {
+              position: relative;
+              top: 4px;
+              span {
+                opacity: .8;
+              }
+            }
+
+            .player-header {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              .player-nickname {
+                display: flex;
+                align-items: center;
+                font-family: $montserrat;
+                font-weight: 500;
+                gap: 8px;
+
+                span {
+                  color: $primary-color;
+                  font-size: 36px;
+                }
+              }
+
+              .player-role {
+                text-transform: uppercase;
+                opacity: .75;
+                letter-spacing: 1px;
+              }
+            }
+
+            .player-bio {
+              padding: 16px 0;
+              flex: 1;
+            }
+          }
+
+
+          .character-ctn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .player-main {
+              margin-bottom: 12px;
+              position: relative;
+              img {
+                height: 35px;
+              }
+            }
+
+            .player-secondaries {
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
+              img {
+                height: 35px;
+              }
+            }
+          }
+        }
+
+        .player-footer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          gap: 12px;
+
+          img {
+            height: 24px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.separator {
+  width: 100%;
+  background: $primary-color;
+  height: 2px;
+  padding: 0 40px;
+}
