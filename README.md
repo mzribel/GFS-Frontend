@@ -1,9 +1,5 @@
 # GFS Vitrine
 
-## Description
-The project is realized within the context of the end of year project of Bachelor 3.
-It consists of a web application to help the managing of the gameplay of tabletop role-play games (such as Dungeons & Dragons).
-
 ## Running
 Start running this command in a terminal
 ```shell
